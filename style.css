@@ -1,0 +1,132 @@
+body{
+  background-color: plum;
+}
+div{
+    background-color: yellow;
+    width: 500px;
+    margin: auto;
+    display: block;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 100px auto;
+    
+}
+
+
+input[type="submit"]{
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 30px; 
+    margin: 0px 150px;
+    text-align: center;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    border: black 5px solid;
+    transform: scale(1.25);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"]
+{
+    width: 400px;
+    height: 25px;
+    margin: 20px 0px 40px 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+marquee{
+    background-color: limegreen;
+    color: darkmagenta;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-family: 'Caveat', cursive;
+    padding: 5.4px 18px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#p3{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+img{
+    width: 450px;
+    border: 25px purple solid;
+    border-radius: 25px;
+    margin: 5px 0px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
+.label{
+    background-color: red;
+    color:white;
+    font-weight: 450;
+    font-size: 18px;
+    border-radius: 18px;
+    padding: 3px 10px;
+    font-family: 'Sunshiney', cursive;
+    
+}
+h1{
+    color: green;
+    background-color: white;
+    border-radius: 27px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&display=swap');
+#p1{
+    font-family: 'Bonbon', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: lightskyblue;
+    color: orangered;
+    padding: 5.4px;
+    border-radius: 21.6px;
+    margin-top: 40px;
+}
+#p2{
+    color:orange;
+    background-color: mediumblue;
+    font-size: 18.9px;
+    font-weight: 720;
+    border-radius: 21.6px;
+    padding: 5.4px;
+    margin-bottom: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.the-option{
+    font-family: 'Yellowtail', cursive;
+    font-size: 18px;
+}
+h1, #p1, #p2, #p3 {
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+.the-option{
+    font-family: 'Chilanka', cursive;
+   
+ }
+
+textarea
+{
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+ 
+#label2{
+    margin-left: 100px;
+}
+input[type="radio"]
+{
+    margin-top: 10px;
+}
+#yes{
+    margin-top: 20px;
+}
